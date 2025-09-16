@@ -10,7 +10,7 @@ It's not a polished "makeup booth." It's a weird, digital Cronenberg machine. If
 
 <img width="828" height="1195" alt="Screenshot 2025-09-16 074922" src="https://github.com/user-attachments/assets/6015ab09-a347-4b13-b5c5-5d9173691578" />
 
-@@ Key Features
+## Key Features
 Live Source Painting: The main attraction. Load a source face, then paint, smudge, and modify it in real-time. Every brush stroke on the source image is reflected in the live face-swap.
 
 DirectPort Native Output: Designed specifically for the Windows ecosystem. It broadcasts its output via DirectPort, making it instantly compatible with virtual camera software like VirtuaCam. This allows for low-latency use in OBS, Discord, Zoom, or any other application that accepts a webcam input.
@@ -23,8 +23,7 @@ Simple & Focused: No complex menus or configuration. Just load an image and star
 I initially thought this could be a neat virtual makeup tool. It is not. The results are often surreal, uncanny, and artistically strange. The strength of this tool lies in its experimental nature. It's for creating bizarre effects, crafting uncanny new personas for a stream, or just exploring the strange side of AI face-swapping.
 
 ## Installation
-P
-rerequisites:
+Prerequisites:
 
 Windows 10 or 11
 
