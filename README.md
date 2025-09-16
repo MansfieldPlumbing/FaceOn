@@ -3,7 +3,11 @@
 
 Face On is a high-performance, real-time face swapping and management application for Windows. It allows you to swap faces from your image library onto a live webcam feed, or create entirely new personas by blending and morphing between different source faces in real-time.
 
+
+
 <img width="495" height="566" alt="image" src="https://github.com/user-attachments/assets/3e57fe43-3223-4f29-859d-437d9471f2cc" />
+
+
 
 It's designed as a stable and powerful control panel for anyone who wants to reliably manage and fine-tune their digital appearance for streaming, video calls, or creative projects.
 (Recommended: Replace this text with a screenshot or GIF of the application in action. Show the UI and perhaps the live preview window.)
