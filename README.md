@@ -41,6 +41,26 @@ If you want an art canvas for creating surreal and bizarre effects, check out Pa
 
 ## Installation
 
+   This project requires a compiled extension for low-latency video. You have two options:
+
+    **Option A: Use the Pre-Compiled Version (Recommended)**
+
+    For convenience, a pre-compiled version for 64-bit Windows and Python 3.10 is available.
+
+    1.  Go to the [**Releases Page**](https://github.com/your-username/your-repo/releases).
+    2.  Under "Assets", download the `.pyd` file (e.g., `directport.cp310-win_amd64.pyd`).
+    3.  Place this file in the root directory of the project, next to `faceonmain.py`.
+
+    **Option B: Compile from Source (Advanced)**
+
+    If the pre-compiled version is not compatible with your system (e.g., you use Python 3.11), you can compile it yourself.
+
+    1.  Install the [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
+    2.  Navigate to the `directport` directory in your terminal: `cd directport`
+    3.  Run the build command: `python setup.py install`
+    4.  This will compile and install the `.pyd` file into your Python environment.
+
+    
 Prerequisites:
 
 Windows 10 or 11
