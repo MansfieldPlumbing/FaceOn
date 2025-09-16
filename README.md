@@ -11,7 +11,7 @@ Face On is a high-performance, real-time face swapping and management applicatio
 
 It's designed as a stable and powerful control panel for anyone who wants to reliably manage and fine-tune their digital appearance for streaming, video calls, or creative projects.
 (Recommended: Replace this text with a screenshot or GIF of the application in action. Show the UI and perhaps the live preview window.)
-![Face On Interface](LINK_TO_YOUR_SCREENSHOT.png)
+
 ## Features
 
 Real-Time Swapping: Instantly swap faces from your source images onto a live webcam feed.
