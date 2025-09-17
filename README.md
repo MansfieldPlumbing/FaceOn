@@ -139,7 +139,7 @@ View the Live Output: To see the results, you need a DirectPort viewer like Virt
 
 PaintShop Studio is an experimental, real-time face-swapping tool for Windows. Its core feature is a "paint shop" interface that lets you dynamically edit your source face image with a brush, and instantly see the results applied to your own face on a live webcam feed.
 
-<img width="444" height="640" alt="image" src="https://github.com/user-attachments/assets/cfe80b96-9b91-4c94-8180-8cf9c6d66351" />
+![ezgif-67d1f57701c425](https://github.com/user-attachments/assets/eb02ff1a-2e23-40cb-b50c-ae795f2572d6)
 
 It's not a polished "makeup booth." It's a weird, digital Cronenberg machine. If you've ever wanted to paint a new face onto a historical figure and then wear it in a video call, this is for you.
 
