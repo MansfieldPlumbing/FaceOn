@@ -117,7 +117,7 @@ Add Source Images: Place any face images (e.g., .jpg, .png) you want to use into
 Run the Application:
 
 ```
-python faceonmain.py
+python faceon.py
 ```
 
 ## Control the UI:
@@ -132,18 +132,7 @@ Adjust Sliders: Use the sliders in the bottom half of the window to fine-tune th
 
 View the Live Output: To see the results, you need a DirectPort viewer like VirtuaCam.
 
-Open your virtual camera software (e.g., VirtuaCam Studio).
-
-Add a new "DirectPort Source" layer.
-
-The producer, named TegrityEngine_Output, should appear in the source list. Select it.
-
-You will now see your live, modified webcam feed. You can use this virtual camera in any other application like OBS, Discord, Zoom, etc.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
+## I highly recommend downloading my VirtuaCam virtual camera so that you will have broadcasting abilities.
 
 
 ## PaintShop Studio: A Real-Time FaceSwap Playground
@@ -173,38 +162,43 @@ A DirectML-compatible GPU (most modern AMD, NVIDIA, or Intel GPUs)
 
 Python 3.8+
 
-##Instructions:
-C
-lone the repository:
+## Instructions:
 
-
-git clone https://github.com/your-username/paintshop-studio.git
-cd paintshop-studio
+Clone the repository:
+```
+git clone https://github.com/MansfieldPlumbing/FaceOn.git
+```
 Set up a Python virtual environment (recommended):
-
+```
 python -m venv venv
 .\venv\Scripts\activate
+```
+
 Install the required packages:
 
+```
 pip install -r requirements.txt
+```
+
 Download the Models:
+
 The required ONNX model files are not included in the repository.
+
 a. Go to the Releases Page on this repository.
 b. Download the models.zip file from the latest release.
 c. Create a models folder in the project's root directory.
 d. Unzip the contents of models.zip into this models folder.
-How to Use
+
+## How to Use
+
 Run the application:
 
-python paintshopmain.py
-(Assuming your main script is paintshopmain.py)
+```
+python paintshop.py
+```
+
 Load a Source Image: Click the "Load Image" button and select an image file containing a face.
 Start Painting: Use the sliders to adjust brush size, hardness, and opacity. Click the color swatch to change colors. Paint directly on the main canvas.
-View the Live Output: To see the results, you need a DirectPort viewer.
-Open your virtual camera software (e.g., VirtuaCam Studio).
-Add a new "DirectPort Source" layer.
-The producer, named something like PaintShopStudio_[PID], should appear in the list. Select it.
-You will now see your webcam feed with the modified source face swapped onto it. This feed can now be used in any other application like OBS or Discord.
 
 ## License
 
