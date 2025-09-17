@@ -74,7 +74,7 @@ Python 3.8+
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/face-on.git
+git clone https://github.com/your-username/faceon.git
 cd face-on
 ```
 
