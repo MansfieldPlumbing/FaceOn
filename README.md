@@ -152,8 +152,6 @@ PaintShop Studio is an experimental, real-time face-swapping tool for Windows. I
 
 It's not a polished "makeup booth." It's a weird, digital Cronenberg machine. If you've ever wanted to paint a new face onto a historical figure and then wear it in a video call, this is for you.
 
-<img width="828" height="1195" alt="Screenshot 2025-09-16 074922" src="https://github.com/user-attachments/assets/6015ab09-a347-4b13-b5c5-5d9173691578" />
-
 ## Key Features
 Live Source Painting: The main attraction. Load a source face, then paint, smudge, and modify it in real-time. Every brush stroke on the source image is reflected in the live face-swap.
 
