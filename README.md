@@ -1,4 +1,4 @@
-# Face On
+# FaceOn
 ## Real Time Face Studio with Virtual Camera support
 
 Face On is a high-performance, real-time face swapping and management application for Windows. It allows you to swap faces from your image library onto a live webcam feed, or create entirely new personas by blending and morphing between different source faces in real-time.
