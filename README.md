@@ -5,7 +5,8 @@ Face On is a high-performance, real-time face swapping and management applicatio
 
 
 
-![ezgif-67d1f57701c425](https://github.com/user-attachments/assets/eb02ff1a-2e23-40cb-b50c-ae795f2572d6)
+![ezgif-67d1f57701c425](https://github.com/user-attachments/assets/eb02ff1a-2e23-40cb-b50c-ae795f2572d6) <img width="495" height="562" alt="image" src="https://github.com/user-attachments/assets/2e9e68da-a7dc-4c62-987b-c3d1448b83a7" />
+
 
 
 
