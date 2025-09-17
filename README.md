@@ -75,7 +75,7 @@ Python 3.8+
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/faceon.git
+git clone https://github.com/MansfieldPlumbing/faceon.git
 cd face-on
 ```
 
