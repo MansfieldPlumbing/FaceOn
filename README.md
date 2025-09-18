@@ -5,7 +5,7 @@
 
 ![Windows 10](https://img.shields.io/badge/Windows-10-0078D6?style=for-the-badge&logo=windows)![Windows 11](https://img.shields.io/badge/Windows-11-0078D6?style=for-the-badge&logo=windows)![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus)![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
-FaceOn Studio is not just another face-swapping app; it's a real-time virtual camera suite that lets you become anyone or anything you can imagine. Paint directly onto a source face to create a unique digital avatar, and broadcast the result live into any application that uses a webcam—from OBS and Zoom to Discord and Google Meet.
+FaceOn Studio is not just another face-swapping app; it's a real-time virtual camera suite that lets you become anyone you can imagine. Paint directly onto a source face to create a unique digital avatar, and broadcast the result live into any application that uses a webcam—from OBS and Zoom to Discord and Google Meet.
 
 Welcome to the cutting edge of real-time avatar creation! FaceOn Studio is an **experimental and creative tool.** Think of it less as a simple filter and more as a **collaboration with an AI artist.** Your mileage may vary, but the creative possibilities that arise from guiding a powerful neural network are endless.
 
