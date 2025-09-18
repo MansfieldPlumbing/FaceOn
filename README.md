@@ -9,7 +9,7 @@ FaceOn Studio is not just another face-swapping app; it's a real-time virtual ca
 
 Welcome to the cutting edge of real-time avatar creation! FaceOn Studio is an **experimental and creative tool.** Think of it less as a simple filter and more as a **collaboration with an AI artist.** Your mileage may vary, but the creative possibilities that arise from guiding a powerful neural network are endless.
 
-Powered by a high-performance deep learning core and the custom **[VirtuaCam](https://github.com/MansfieldPlumbing/VirtuaCam)** driver, FaceOn Studio offers a seamless and powerful way to transform your digital presence.
+Powered by a high-performance deep learning core and the custom **[VirtuaCam](https://github.com/MansfieldPlumbing/VirtuaCam)** Media Foundation virtual camera, FaceOn Studio offers a seamless and powerful way to transform your digital presence.
 
 ## A Creative Collaboration (Not a Perfect Filter)
 
@@ -88,7 +88,7 @@ This method is for users who prefer not to install software.
 
 ## For Developers (Linux & macOS)
 
-While the pre-built executables are Windows-only due to the custom virtual camera driver, users on other platforms can build and run the core Python application from the source code. The virtual camera functionality will not be available.
+While the pre-built executables are Windows-only due to the custom virtual camera, users on other platforms can build and run the core Python application from the source code. The virtual camera functionality will not be available.
 
 You will need:
 *   A C++ compiler and CMake to build the `directport` library.
