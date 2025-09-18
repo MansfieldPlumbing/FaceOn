@@ -1,137 +1,106 @@
-# FaceOn
-## Real-Time Face Studio with Virtual Camera Support
-
-Face On is a high-performance, real-time face swapping and management application for Windows. It allows you to swap faces from your image library onto a live webcam feed or create entirely new personas by blending and morphing between different source faces in real-time.
-
-It's designed as a stable and powerful control panel for anyone who wants to reliably manage and fine-tune their digital appearance for streaming, video calls, or creative projects.
-
-![ezgif-62a66117414693](https://github.com/user-attachments/assets/54898634-78f5-4845-9a04-60baaa8bc459)
-
-
-## Features
-
-*   **Real-Time Swapping**: Instantly swap faces from your source images onto a live webcam feed.
-*   **Face Blending**: Use a simple slider to seamlessly blend between two selected source faces, creating a unique hybrid.
-*   **Automated Morphing**: Activate a continuous, smooth morph between all of the faces in your source library.
-*   **EMAP Mode**: Don't have source images? Use the built-in "Emap Archetype" face to get started immediately.
-*   **Fine-Tuning Control Panel**: A full suite of sliders lets you adjust the ROI (Region of Interest) margin, mask feathering, core tightness, and affine "nudge" controls (X/Y offset, scale) for a perfect blend.
-*   **DirectPort Native Output**: Broadcasts its output using DirectPort, ensuring low-latency and seamless integration with virtual camera software like VirtuaCam.
-*   **GPU Accelerated**: Utilizes ONNX Runtime with the DirectML execution provider for high-performance, hardware-accelerated processing on modern Windows systems.
-
-## A Tale of Two Tools
-
-Face On is one-half of a two-part release. It is the stable, control-focused tool designed for reliable performance and fine-tuning. If you want a control panel to manage, blend, and perfect face swaps, you are in the right place.
-
-Its creative counterpart is **PaintShop Studio**, an experimental tool that lets you paint a source face in real-time and wear it like a digital mask. If you want an art canvas for creating surreal and bizarre effects, check out PaintShop Studio.
 
 ---
 
-## PaintShop Studio: A Real-Time FaceSwap Playground
+# FaceOn Studio
 
-PaintShop Studio is an experimental, real-time face-swapping tool for Windows. Its core feature is a "paint shop" interface that lets you dynamically edit your source face image with a brush and instantly see the results applied to your own face on a live webcam feed.
+![Windows 10](https://img.shields.io/badge/Windows-10-0078D6?style=for-the-badge&logo=windows)![Windows 11](https://img.shields.io/badge/Windows-11-0078D6?style=for-the-badge&logo=windows)![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus)![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
-It's not a polished "makeup booth." It's a weird, digital Cronenberg machine. If you've ever wanted to paint a new face onto a historical figure and then wear it in a video call, this is for you.
+FaceOn Studio is not just another face-swapping app; it's a real-time virtual camera suite that lets you become anyone or anything you can imagine. Paint directly onto a source face to create a unique digital avatar, and broadcast the result live into any application that uses a webcam—from OBS and Zoom to Discord and Google Meet.
 
-### Key Features
-*   **Live Source Painting**: The main attraction. Load a source face, then paint, smudge, and modify it in real-time. Every brush stroke on the source image is reflected in the live face-swap.
-*   **DirectPort Native Output**: Designed specifically for the Windows ecosystem. It broadcasts its output via DirectPort, making it instantly compatible with virtual camera software like [**VirtuaCam**](https://github.com/MansfieldPlumbing/VirtuaCam/releases/tag/VirtuaCam). This allows for low-latency use in OBS, Discord, Zoom, or any other application that accepts a webcam input.
-*   **GPU Accelerated**: Uses ONNX Runtime with the DirectML execution provider for hardware-accelerated performance on modern Windows systems.
-*   **Simple & Focused**: No complex menus or configuration. Just load an image and start painting.
+Welcome to the cutting edge of real-time avatar creation! FaceOn Studio is an **experimental and creative tool.** Think of it less as a simple filter and more as a **collaboration with an AI artist.** Your mileage may vary, but the creative possibilities that arise from guiding a powerful neural network are endless.
 
-### The Vibe (Managing Expectations)
+Powered by a high-performance deep learning core and the custom **[VirtuaCam](https://github.com/MansfieldPlumbing/VirtuaCam)** driver, FaceOn Studio offers a seamless and powerful way to transform your digital presence.
 
-I initially thought this could be a neat virtual makeup tool. It is not. The results are often surreal, uncanny, and artistically strange. The strength of this tool lies in its experimental nature. It's for creating bizarre effects, crafting uncanny new personas for a stream, or just exploring the strange side of AI face-swapping.
+## A Creative Collaboration (Not a Perfect Filter)
 
----
+The magic of FaceOn Studio comes from the `inswapper` deep learning model, which is trained on millions of real faces. It doesn't just paste your drawings on top of your face; it tries to make them look *photorealistic*. This creates a fascinating and creative push-and-pull between you and the AI:
 
-## Installation
+*   You might draw a pair of cartoony, orange-rimmed glasses on Abraham Lincoln, and the AI will render them as realistic-looking glasses on your face in real-time.
+*   You can subtly paint a new hairline, apply digital makeup, or add a scar, and the model will intelligently blend it into your features.
 
-### Prerequisites:
+This makes the tool incredibly powerful for tweaking and perfecting avatars, but be prepared for a creative partnership. The AI will interpret your work, and sometimes the most interesting results come from these "happy accidents."
 
-*   Windows 10 or 11
-*   A DirectML-compatible GPU (most modern AMD, NVIDIA, or Intel GPUs)
-*   Python 3.8+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bcfbad9b-c0b3-47a5-9964-82fa112efd8d" alt="FaceOn Studio Demo" width="800"/>
+</p>
 
-### Instructions:
+## Core Features
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/MansfieldPlumbing/faceon.git
-    cd face-on
-    ```
+*   **Real-Time, GPU-Accelerated Swapping:** Leverages ONNX Runtime with a DirectML backend for high-performance, vendor-agnostic face swapping that runs smoothly on any modern GPU (NVIDIA, AMD, Intel).
+*   **AI-Interpreted Painting:** Experience a unique creative process where you don't just overlay an image, you guide an AI. The model intelligently interprets your paintings to create a cohesive, blended result.
+*   **Powerful Paint Tools:** Use an intuitive painting interface to modify your source face. Features include:
+    *   Adjustable brush size, opacity, hardness, and step.
+    *   A full-featured color picker and eyedropper tool.
+    *   Symbol stamping for adding creative effects.
+    *   Full undo/redo history for non-destructive editing.
+*   **Virtual Camera Broadcasting:** Integration with the **[VirtuaCam](https://github.com/MansfieldPlumbing/VirtuaCam)** driver creates a new webcam on your system, allowing you to pipe your modified video feed directly into other applications.
+*   **Create & Save Permanent Avatars:** When you've perfected a look, you can save the resulting face embedding as a `.safetensors` file. This creates a permanent, high-fidelity avatar that you can load instantly in the future.
+*   **Fine-Grained Controls:** Pop out the External Preview window to access advanced sliders for perfecting the blend. Adjust the ROI, feathering, mask expansion, and even nudge the affine transform (position/scale) for a flawless result.
 
-2.  **Set up a Python virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    .\venv\Scripts\activate
-    ```
+## How It Works
 
-3.  **Install the required packages:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+FaceOn Studio uses a sophisticated hybrid architecture to achieve its real-time performance and system-level integration:
 
-4.  **Download the Models:**
-    The required ONNX model files are not included in the repository. They must be downloaded from the project's releases page.
-    a. Go to the **Releases Page**.
-    b. Under the "Assets" section of the latest release, download the `models.zip` file.
-    c. Create a folder named `models` in the root of your project directory.
-    d. Unzip the contents of `models.zip` directly into the `models` folder.
+1.  **The Python Core:** The main application is built in Python using **Tkinter** for the UI. It uses **OpenCV** to manage the webcam feed and **ONNX Runtime** to execute the deep learning models for face detection (`det_10g`), recognition (`w600k_r50`), and swapping (`inswapper_128`).
+2.  **The C++ Virtual Camera:** The low-level **[VirtuaCam](https://github.com/MansfieldPlumbing/VirtuaCam)** driver is written in C++. It registers a new software-based camera source with Windows, making it available to all other applications.
+3.  **The `directport` Bridge:** A high-speed communication bridge allows the Python application (the "producer") to send the processed video frames to a shared memory texture, which the C++ driver (the "consumer") reads from. This ensures minimal latency and high throughput.
 
-    Your final folder structure should look like this:
-    ```
-    face-on/
-    ├── models/
-    │   ├── det_10g.onnx
-    │   ├── inswapper_128.onnx
-    │   └── w600k_r50.onnx
-    ├── faceonmain.py
-    └── ... (etc.)
-    ```
+## Getting Started on Windows
 
-5.  **Compile or Download the DirectPort Extension:**
-    This project requires a compiled extension for low-latency video.
+You have two simple options for getting started. Both include all necessary models and libraries.
 
-    *   **Option A: Use the Pre-Compiled Version (Recommended)**
-        For convenience, a pre-compiled version for 64-bit Windows and Python 3.10 is available.
-        1.  Go to the [**Releases Page**](https://github.com/your-username/your-repo/releases).
-        2.  Under "Assets", download the `.pyd` file (e.g., `directport.cp310-win_amd64.pyd`).
-        3.  Place this file in the root directory of the project, next to `faceonmain.py`.
-
-    *   **Option B: Compile from Source (Advanced)**
-        If the pre-compiled version is not compatible with your system (e.g., you use Python 3.11), you can compile it yourself.
-        1.  Install the [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
-        2.  Navigate to the `directport` directory in your terminal: `cd directport`
-        3.  Run the build command: `python setup.py install`
-        4.  This will compile and install the `.pyd` file into your Python environment.
+**Prerequisites:**
+*   Windows 10 or Windows 11
+*   A modern GPU (NVIDIA, AMD, or Intel) with DirectX 12 support
+*   A webcam
 
 ---
 
-## How to Use
+### Option 1: Easy Installation (Recommended)
 
-### FaceOn
+This method uses a standard installer and creates shortcuts for you. It installs locally to your user account and does **not** require administrator privileges.
 
-1.  **Add Source Images**: Place any face images (e.g., `.jpg`, `.png`) you want to use into the `/sources` folder. The application will automatically find them when it starts.
-2.  **Run the Application**:
-    ```bash
-    python faceon.py
-    ```
-3.  **Control the UI**:
-    *   **Mode Selection**: Use the radio buttons on the left to select your desired mode (Swap, Blend, Morph, etc.).
-    *   **Source Selection**: Hover your mouse cursor over the source image thumbnails and use the mouse scroll wheel to cycle through your library. In **Blend** mode, you can select which thumbnail (A or B) is the active scroll target by clicking on it.
-    *   **Adjust Sliders**: Use the sliders in the bottom half of the window to fine-tune the face-swapping parameters in real-time.
-4.  **View the Live Output**: To see the results, you need a DirectPort viewer like [**VirtuaCam**](https://github.com/MansfieldPlumbing/VirtuaCam/releases/tag/VirtuaCam).
+1.  Go to the [**Latest Release**](https://github.com/MansfieldPlumbing/FaceOn/releases/latest) page.
+2.  Download the `FaceOn-Studio-Setup.exe` file.
+3.  Run the installer and follow the on-screen instructions.
+4.  Launch **FaceOn Studio** from the desktop or Start Menu shortcut.
 
-> **I highly recommend downloading my [VirtuaCam](https://github.com/MansfieldPlumbing/VirtuaCam/releases/tag/VirtuaCam) virtual camera so that you will have broadcasting abilities.**
+---
 
-### PaintShop Studio
+### Option 2: Portable (ZIP)
 
-1.  **Run the application**:
-    ```bash
-    python paintshop.py
-    ```2.  **Load a Source Image**: Click the "Load Image" button and select an image file containing a face.
-3.  **Start Painting**: Use the sliders to adjust brush size, hardness, and opacity. Click the color swatch to change colors. Paint directly on the main canvas.
+This method is for users who prefer not to install software.
 
-## License
+1.  Go to the [**Latest Release**](https://github.com/MansfieldPlumbing/FaceOn/releases/latest) page.
+2.  Download the `FaceOn-Studio.zip` file.
+3.  Extract the contents of the ZIP file to a folder on your computer.
+4.  Run `FaceOn Studio.exe` from the extracted folder.
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+## Basic Usage
+
+1.  Launch **FaceOn Studio**.
+2.  Click the **📂 (Folder)** icon to load a source image containing a face. This will be the face you swap onto your webcam feed.
+3.  Use the paint tools and color picker to customize the source image on the canvas.
+4.  (Optional) Click the **💾 (Save)** icon to save your creation as a permanent `.safetensors` avatar in the `embeddings` folder.
+5.  Launch your streaming or video-conferencing app (OBS, Zoom, Discord, etc.).
+6.  In your other application's settings, change the selected camera to **"VirtuaCam"**.
+7.  Your real-time, face-swapped video will now be broadcasting!
+
+## For Developers (Linux & macOS)
+
+While the pre-built executables are Windows-only due to the custom virtual camera driver, users on other platforms can build and run the core Python application from the source code. The virtual camera functionality will not be available.
+
+You will need:
+*   A C++ compiler and CMake to build the `directport` library.
+*   Python 3.10+
+*   The necessary Python packages (see `requirements.txt`).
+*   A suitable virtual camera solution for your OS (e.g., v4l2loopback on Linux).
+
+## Technology Stack
+
+*   **Core Logic:** Python
+*   **GUI:** Tkinter
+*   **AI/ML:** ONNX Runtime with DirectML
+*   **Virtual Camera:** C++, Windows Media Foundation, COM
+*   **Image Processing:** OpenCV, Pillow
+*   **Packaging:** PyInstaller, Inno Setup
