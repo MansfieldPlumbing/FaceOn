@@ -1,6 +1,0 @@
-numpy
-opencv-python
-Pillow
-onnx
-onnxruntime-directml
-scikit-image
