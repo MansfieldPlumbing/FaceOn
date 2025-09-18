@@ -5,10 +5,8 @@ Face On is a high-performance, real-time face swapping and management applicatio
 
 It's designed as a stable and powerful control panel for anyone who wants to reliably manage and fine-tune their digital appearance for streaming, video calls, or creative projects.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/eb02ff1a-2e23-40cb-b50c-ae795f2572d6" alt="FaceOn Application Screenshot 1" width="45%"/>
-  <img src="https://github.com/user-attachments/assets/2e9e68da-a7dc-4c62-987b-c3d1448b83a7" alt="FaceOn Application Screenshot 2" width="45%"/>
-</p>
+![ezgif-62a66117414693](https://github.com/user-attachments/assets/54898634-78f5-4845-9a04-60baaa8bc459)
+
 
 ## Features
 
