@@ -10,6 +10,9 @@ It's powered by a deep learning core and the **[VirtuaCam](https://github.com/Ma
 
 ## A Creative Collaboration
 
+<img width="605" height="900" alt="image" src="https://github.com/user-attachments/assets/604040fe-9b93-42bb-b20a-fcb647a453ab" />
+
+
 The core of FaceOn Studio uses the `inswapper` deep learning model, which was trained on many real faces. It tries to make your drawings look more photorealistic. This creates an interesting and creative interaction between you and the AI:
 
 *   You could draw cartoon glasses on a picture of Abraham Lincoln, and the AI might render them as realistic-looking glasses on your face in real-time.
