@@ -8,8 +8,9 @@ This is an **experimental and creative tool**, so your results may vary. Think o
 
 It's powered by a deep learning core and the **[VirtuaCam](https://github.com/MansfieldPlumbing/VirtuaCam)** virtual camera, which helps to transform your digital presence.
 <p align="center">
- A Creative Collaboration
-
+ ## A Creative Collaboration
+</p>
+<p align="center">
     <img width="605" height="900" alt="image" src="https://github.com/user-attachments/assets/604040fe-9b93-42bb-b20a-fcb647a453ab" />
 </p>
 
