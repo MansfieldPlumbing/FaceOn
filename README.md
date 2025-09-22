@@ -9,9 +9,11 @@ This is an **experimental and creative tool**, so your results may vary. Think o
 It's powered by a deep learning core and the **[VirtuaCam](https://github.com/MansfieldPlumbing/VirtuaCam)** virtual camera, which helps to transform your digital presence.
 
 ## A Creative Collaboration
+<p align="center">
+    <img width="605" height="900" alt="image" src="https://github.com/user-attachments/assets/604040fe-9b93-42bb-b20a-fcb647a453ab" />
+</p>
 
-<img width="605" height="900" alt="image" src="https://github.com/user-attachments/assets/604040fe-9b93-42bb-b20a-fcb647a453ab" />
-
+## What?
 
 The core of FaceOn Studio uses the `inswapper` deep learning model, which was trained on many real faces. It tries to make your drawings look more photorealistic. This creates an interesting and creative interaction between you and the AI:
 
